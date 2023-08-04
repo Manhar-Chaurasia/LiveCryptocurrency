@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, #E5D1FA, #FFF4D2);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #E5D1FA;
+}
+
+.nav h1 {
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+table {
+    margin-top: 15px;
+}
+
+tbody img {
+    height: 30px;
+    width: 30px;
+
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+    table * {
+        font-size: 0.7rem;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    tbody img {
+        height: 15px;
+        width: 15px;
+    }
+
+    th,
+    td {
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    table * {
+        font-size: 0.5rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 0.5rem;
+    }
+
+    tbody img {
+        height: 10px;
+        width: 10px;
+    }
+
+    th,
+    td {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .serial-num {
+        display: none;
+    }
+
+    .price-change {
+        display: none;
+    }
+
+    table * {
+        font-size: 0.5rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 0.5rem;
+    }
+
+    tbody img {
+        height: 13px;
+        width: 13px;
+    }
+
+    th,
+    td {
+        padding: 3px;
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LiveCryptocurrency/static/css/main.8d84275e.css",
+    "main.js": "/LiveCryptocurrency/static/js/main.46b412e9.js",
+    "static/js/787.9340f2da.chunk.js": "/LiveCryptocurrency/static/js/787.9340f2da.chunk.js",
+    "index.html": "/LiveCryptocurrency/index.html",
+    "main.8d84275e.css.map": "/LiveCryptocurrency/static/css/main.8d84275e.css.map",
+    "main.46b412e9.js.map": "/LiveCryptocurrency/static/js/main.46b412e9.js.map",
+    "787.9340f2da.chunk.js.map": "/LiveCryptocurrency/static/js/787.9340f2da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d84275e.css",
+    "static/js/main.46b412e9.js"
+  ]
+}
